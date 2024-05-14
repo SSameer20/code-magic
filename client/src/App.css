@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(to bottom,#222222, #5926b6);
+}
+
+.App > * { 
+  margin: 10px 0;
+}
+
+h2{
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: aliceblue;
+  font-weight: bolder;
+  
+}
+
+
+#run {    
+  display: flex;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px;
+  flex-direction: row;
+}
+
+#run button {
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#run .textinput {
+  margin: 10px;
+}
+
+
+pre {
+  text-align: left;
+  border: 2px solid grey;
+  height: 100px;
+  margin: 0 10px;
+  width: 90%;
+  
+  overflow-y: auto;
+  overflow-x: auto;
+  color: white;
+
+  
+}
+
+#editor {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  border: 2px solid rgb(75, 67, 67);
+}
+
+#switch{
+  margin-left: 50px;
+}
+
+#output-bar{
+  width: 90vw;
+  margin-left: 5vw;
+}
