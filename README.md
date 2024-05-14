@@ -1,61 +1,51 @@
-# CodeWizard - Online Code Editor
+# Magic Code Editor
 
-CodeWizard is an online code editor that provides a hacker-style interface for writing, compiling, and running code in multiple programming languages. This project is built using React.js for the frontend and Express.js as the backend API server.
+Welcome to the Magic Code editor! This editor is built using the Gemini API, React, and Node.js, providing a seamless coding experience with powerful features.
 
 ## Features
 
-- Real-time code editing with syntax highlighting
-- Support for multiple programming languages, including C++, C, Python, and Java
-- Secure and sandboxed code execution environment
-- Customizable input for code execution
-- Real-time output display
-- Hacker-style interface for an immersive coding experience
+- **Gemini API Integration:** Utilizes the Gemini API to provide real-time code analysis, syntax highlighting, and intelligent code completion.
+- **React Framework:** Built with React for a modular and efficient user interface.
+- **Node.js Backend:** Powered by Node.js to handle server-side logic and communication with the Gemini API.
+- **Syntax Highlighting:** Automatically highlights syntax for various programming languages for better readability.
+- **Code Completion:** Offers intelligent code completion suggestions based on the context, making coding faster and more efficient.
+- **Real-time Code Analysis:** Provides instant feedback on code errors, warnings, and suggestions as you type.
+- **Customizable Themes:** Supports customizable themes to personalize the editor's appearance according to your preferences.
+- **Responsive Design:** Ensures optimal performance and usability across different devices and screen sizes.
 
-## Technologies Used
+## Setup
 
-### Frontend
-- [Monaco Editor](https://microsoft.github.io/monaco-editor/) - A browser-based code editor from Microsoft
-- [React.js](https://reactjs.org) - A JavaScript library for building user interfaces
-- [React Ace](https://www.npmjs.com/package/react-ace) - Code editor component for React using the Ace editor
-- [Axios](https://axios-http.com) - Promise-based HTTP client for making API requests
-- [react-select](https://www.npmjs.com/package/react-select) - Flexible and customizable dropdown/select component for React
-- [Material-UI](https://mui.com) - React component library for UI elements
+To set up the Magic Code editor on your local machine, follow these steps:
 
-### Backend
-- [Express.js](https://expressjs.com) - Fast and minimalist web application framework for Node.js
-- [Axios](https://axios-http.com) - Promise-based HTTP client for making API requests
-- [CORS](https://www.npmjs.com/package/cors) - Middleware for enabling Cross-Origin Resource Sharing
+1. **Clone the Repository:**
+   ```bash
+   git clone
+   ```
 
-## Installation
+2. **Install Dependencies:**
 
-### Prerequisites
-- Node.js (https://nodejs.org)
+```bash
+cd magic-code-editor
+npm install
+```
+3. **Start the Development Server:**
+```bash
+npm start
+```
+5.**Access the Editor:**
+Once the development server is running, open your web browser and navigate to http://localhost:3000 to access the Magic Code editor.
 
-### Frontend Setup
-1. Clone the repository: `git clone https://github.com/khadeerthewizard/CodeWizard.git`
-2. Navigate to the frontend directory: `cd CodeWizard/frontend`
-3. Install dependencies: `npm install`
-4. Start the frontend development server: `npm start`
-5. Access the frontend application at `http://localhost:3000`
+5.**Connect to Gemini API:**
+In order to utilize the Gemini API features, you'll need to obtain an API key from the Gemini website. Once you have the API key, configure it in the editor settings to enable real-time code analysis and other advanced features.
 
-### Backend Setup
-1. Navigate to the backend directory: `cd CodeWizard/backend`
-2. Install dependencies: `npm install`
-3. Start the backend server: `npm start`
-4. Access the backend API at `http://localhost:5000`
+6.**Usage**
+Creating a New File: Click on the "New File" button to create a new code file.
+Opening an Existing File: Use the "Open File" option to browse and open existing code files.
+Saving Files: Save your code files using the "Save" or "Save As" options.
+Editing Code: Write and edit your code in the editor pane. Syntax highlighting and code completion features will assist you as you type.
+Running Code: Depending on the language you're working with, you may have options to run your code directly within the editor or export it for execution in an external environment.
+Contributing
+Contributions to the Magic Code editor are welcome! If you encounter any issues or have ideas for improvements, feel free to submit pull requests or open issues on the GitHub repository.
 
-## Development Workflow
-
-1. Make sure the frontend and backend servers are running.
-2. Open your browser and access `http://localhost:3000` to use the CodeWizard online code editor.
-3. Start making changes to the code, and the browser will automatically update with hot reloading.
-4. Modify the backend API routes as needed to support additional functionalities.
-5. Test the application and ensure everything is functioning as expected.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
-
-## Contact
-
-For any inquiries or questions, please contact us at khadeer2204@gmail.com.
+**License**
+This project is licensed under the MIT License, allowing for free use, modification, and distribution.
